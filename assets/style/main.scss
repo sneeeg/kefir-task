@@ -1,0 +1,80 @@
+html {
+  height: 100%;
+  scrollbar-color: #ffffff #000000;
+  scrollbar-width: thin;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  -webkit-overflow-scrolling: touch;
+}
+
+#__nuxt {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+button {
+  cursor: pointer;
+  background: transparent;
+  padding: 0;
+  border: none;
+  font-family: "Inter", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  cursor: default;
+  margin: 0;
+  padding: 0;
+}
+
+input,
+textarea {
+  outline: none;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+main {
+  flex-grow: 1;
+  padding-top: 123px;
+}
+
+section {
+  padding: 80px 0;
+}
+
+.section-title {
+  font-size: 32px;
+}

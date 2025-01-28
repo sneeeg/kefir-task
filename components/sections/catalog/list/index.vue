@@ -136,7 +136,6 @@ const resetFilter = () => {
   selectedFilter.value = "Фильтр коллекций";
   isOpenFilter.value = false;
   filteredData.value = undefined;
-  console.log(filteredData)
 }
 </script>
 
